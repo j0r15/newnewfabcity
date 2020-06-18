@@ -1,0 +1,17 @@
+# - name: Home
+#   link: /
+  - name: Network
+    link: \#network
+    align: left
+  - name: Discover
+    link: \#discover
+    align: left
+  - name: Community
+    link: \#community
+    align: left
+  - name: Blog
+    link: \#blog
+    align: right
+  - name: Resources
+    link: \#resources
+    align: right
