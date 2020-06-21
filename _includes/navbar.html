@@ -1,5 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-transparent">
-  <a class="navbar-brand" href="#">Logo</a>
+ <a class="navbar-brand" href="#"><img class="svg-white" src="assets/images/fabcity-white.svg" width="30px" /></a>
+ <a class="uppercase fat-letters nav-item white brand-name" style="margin-left:-40px" href="#">Fab City</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -17,6 +18,8 @@
       <a class="nav-item nav-link" href="{{ item.link }}">{{ item.name }}</a>
       {% endif %}
       {% endfor %}
+      <a class="nav-item nav-link svg-icon" href="#" ><img class="nav-icon" src="assets/images/facebook.svg" /></a>
+      <a class="nav-item nav-link svg-icon" href="#" ><img class="nav-icon" src="assets/images/twitter.svg" /></a>
     </div>
   </div>
 </nav>
